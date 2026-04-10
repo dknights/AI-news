@@ -7,8 +7,6 @@
   port = 5173
 
 # Run the refresh function every day at 6am UTC
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
 
 [functions]
   directory = "netlify/functions"
